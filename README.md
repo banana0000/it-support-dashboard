@@ -1,6 +1,9 @@
 # IT Support Dashboard
 
-Static IT support ticket dashboard built with [Plotly.js](https://plotly.com/javascript/). The data (11,923 tickets, 2024) is embedded in `index.html`, so no backend is needed.
+Interactive IT support ticket dashboard built with [Plotly.js](https://plotly.com/javascript/). The data (11,923 tickets, 2024) is embedded in the HTML, so no backend is needed.
+
+- `index.html`: full interactive dashboard (Overview, Locations, Workload pages, filters)
+- `static.html`: small static version with the main charts and tables
 
 **Live:** https://it-support-dashboard2.onrender.com/
 
@@ -13,7 +16,7 @@ Static IT support ticket dashboard built with [Plotly.js](https://plotly.com/jav
 
 ## Run locally
 
-Open `index.html` in a browser (Plotly.js is loaded from the `cdn.plot.ly` CDN, so an internet connection is needed).
+Open `index.html` (or `static.html`) in a browser (Plotly.js is loaded from the `cdn.plot.ly` CDN, so an internet connection is needed).
 
 ## Deploy
 
